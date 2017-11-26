@@ -1,0 +1,117 @@
+$pink: #E66E6E;
+$grey: #3b3b3b;
+$bodyColor: #6b6b6b;
+$bodySize: 14px;
+
+body, button {
+	font-family: 'Dosis', sans-serif;
+	position: relative;
+	background-color: #fff;
+}
+main {
+	position: absolute;
+	top: 80px;
+	left: 0;
+	width: 100%;
+	@media only screen and (min-width: 576px) {
+		top: 120px;
+	}
+}
+
+h1, h2 {
+	font-weight: 600;
+}
+
+p {
+	margin-bottom: 0;
+}
+
+h1,h2,h3,h4,h5,h6, .title {
+	font-weight: 600;
+}
+
+h1,h2,h3,h4,h5,p, a, button {
+	color: $bodyColor;
+}
+
+a {text-decoration: none;}
+
+p, a, button {
+	font-size: $bodySize;
+}
+
+a, button {
+	transition: .3s ease-in-out;
+}
+
+a:hover, a:focus, a:active {
+	color: $pink;
+	text-decoration: none;
+}
+
+.text-center {
+	text-align: center;
+}
+
+button {
+	cursor: pointer;
+	//transition: .3s ease-in;
+}
+
+button:hover, button:active, button:focus {
+	border: none;
+	outline: none;
+}
+
+.title {font-size: 16px;}
+
+.body-text, .sub-title {
+	color: $bodyColor;
+}
+
+.body-text, .sub-title {
+	font-size: 14px;
+}
+
+nav {
+	z-index: 999;
+	background-color: rgba(255, 255, 255, 0.7);
+	a {
+		font-size: 16px;
+		font-weight: 600;
+		//color: $grey;
+		&:hover, &:focus {
+			color: $grey;
+		}
+	}
+	.nav-item.active {
+		.nav-link {
+			color: $pink;
+			@media only screen and (min-width: 576px) {
+				border-bottom: 5px solid $pink;
+				color: $grey;
+			}
+			//color: $grey;
+		}
+	}
+	.navbar-toggler {
+		padding: 0;
+	}
+	@media (min-width: 576px) {
+		.navbar-expand-lg .navbar-nav .nav-link {
+		    padding: .3rem 0;
+		}
+		.nav-item {
+			padding: 1rem;
+		}
+	}
+	.navbar-toggler-icon {
+	    background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+	}
+}
+
+@import 'partials/home';
+@import 'partials/skills';
+@import 'partials/experiences';
+@import 'partials/works';
+@import 'partials/contact';
