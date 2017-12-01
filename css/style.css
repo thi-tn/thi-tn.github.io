@@ -72,6 +72,8 @@ nav {
         color: #3b3b3b; } }
   nav .navbar-toggler {
     padding: 0; }
+  nav .navbar-brand img {
+    max-height: 35px; }
   @media (min-width: 576px) {
     nav .navbar-expand-lg .navbar-nav .nav-link {
       padding: .3rem 0; }
@@ -169,6 +171,9 @@ nav {
       margin-bottom: 0;
       padding: 0 30px; } }
 
+.skill-years {
+  text-align: right; }
+
 .row.position {
   margin-bottom: 30px; }
 
@@ -205,12 +210,17 @@ nav {
   padding-bottom: 15px; }
 
 #works .close {
-  font-size: 3rem; }
+  font-size: 3rem;
+  font-weight: 400; }
 
 @media only screen and (min-width: 576px) {
   #works .modal-dialog {
     width: 90%;
     max-width: 90%; } }
+
+#works .modal-content {
+  border: 0;
+  border-radius: 0; }
 
 #works .modal-header {
   border: 0; }
@@ -219,10 +229,16 @@ nav {
   padding-bottom: 30px; }
 
 #works .carousel-control-prev {
-  left: -13%; }
+  left: -4%; }
 
 #works .carousel-control-next {
-  right: -13%; }
+  right: -4%; }
+
+#works .carousel-control-next, #works .carousel-control-prev {
+  position: fixed;
+  top: 50vh;
+  transform: translateY(-50%);
+  bottom: initial; }
 
 @media only screen and (min-width: 768px) {
   #works .thumb-wrapper {
@@ -275,6 +291,19 @@ nav {
   padding-top: 30px; }
   .works-caption h3 {
     font-size: 1.5rem; }
+  .works-caption a {
+    font-weight: 600; }
+    .works-caption a:hover, .works-caption a:focus, .works-caption a:active {
+      color: #E66E6E; }
+
+.multiple-img .works-caption {
+  padding-top: 0; }
+
+.multiple-img img {
+  margin-top: 10px; }
+  @media only screen and (min-width: 576px) {
+    .multiple-img img {
+      margin-top: 30px; } }
 
 @media only screen and (max-width: 768px) {
   .ux-img {

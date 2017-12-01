@@ -25,21 +25,33 @@
 		padding-top: 15px;
 		padding-bottom: 15px; 
 	}
-	.close {font-size: 3rem;}
+
+	//***** MODAL
+	.close {font-size: 3rem;
+		font-weight: 400;}
 	.modal-dialog {
 		@media only screen and (min-width: 576px) {
 			width: 90%;
 			max-width: 90%;	
 		}		
 	}
+	.modal-content {
+		border: 0;
+		border-radius: 0;}
 	.modal-header {
 		border: 0;
 	}
 	.modal-body {
 		padding-bottom: 30px;
 	}
-	.carousel-control-prev {left: -13%;}
-	.carousel-control-next {right: -13%;}
+	.carousel-control-prev {left: -4%;}
+	.carousel-control-next {right: -4%;}
+	.carousel-control-next, .carousel-control-prev {
+		position: fixed;
+		top: 50vh;
+    	transform: translateY(-50%);
+    	bottom: initial;
+	}
 	@media only screen and (min-width: 768px) {
 		.thumb-wrapper {
 			padding: 30px;
@@ -104,6 +116,24 @@
 .works-caption {
 	padding-top: 30px;
 	h3 {font-size: 1.5rem;}
+	a {
+		font-weight: 600;
+		&:hover, &:focus, &:active {
+			color: $pink;
+		}
+	}
+}
+
+.multiple-img {
+	.works-caption {
+		padding-top: 0;
+	}
+	img {
+		margin-top: 10px;
+		@media only screen and (min-width: 576px) {
+			margin-top: 30px;
+		}
+	}
 }
 
 .ux-img {
