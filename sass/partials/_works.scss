@@ -2,12 +2,15 @@
 	.nav-tabs, .nav-tabs .nav-link {
 		border: 0;
 	}
+	.nav-tabs {
+		margin: 0 auto;
+		margin-bottom: 15px;}
 	.nav-link {
 		color: $bodyColor;
 		font-size: 14px;
-		font-weight: 400;
+		font-weight: 600;
 		//text-transform: uppercase;
-		&:hover, &:focus, &:active {
+		&:hover, &:focus, &:active{
 			color: $grey;
 		}
 		@media only screen and (min-width: 576px) {
@@ -18,8 +21,7 @@
 		overflow: hidden;
 	}
 	.nav-link.active {
-		//color: #000;
-		font-weight: 600;
+		color: $grey;
 	}
 	.thumb-wrapper {
 		padding-top: 15px;

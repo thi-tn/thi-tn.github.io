@@ -5,6 +5,7 @@
 #experiences {
 	.title {
 		color: $pink;
+		//border-bottom: 2px $bodyColor solid;
 	}
 	@media only screen and (max-width: 576px) {
 		.title {
@@ -14,5 +15,25 @@
 		.sub-title {
 			margin-bottom: 0;
 		}
+	}
+}
+
+.exp-details {
+	position: relative;
+	padding-left: 30px;
+	&:after {
+		content: "";
+		background-color: #909090;
+		position: absolute;
+		top: 0;
+		left: 15px;
+		width: 4px;
+		height: 100%;
+		@media only screen and (min-width: 576px) {
+			left: 0;
+		}
+	}
+	@media only screen and (min-width: 576px) {
+		padding-left: 19px; //15px + 4px
 	}
 }
