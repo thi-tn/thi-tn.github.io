@@ -71,13 +71,20 @@
 	.works-caption {
 		padding-left: 15px;
 		padding-right: 15px;
+		@media only screen and (min-width: 992px) {
+			padding-right: 60px;
+			padding-left: 60px;
+		}
 	}
 	.title {
-		margin-top: 15px;
+		margin-top: 35px;
 		font-size: 1.3rem;
+		@media only screen and (min-width: 992px) {
+			margin-top: 40px;
+		}
 	}
 	.sub-title {
-		margin-top: 20px;
+		margin-top: 25px;
 		margin-bottom: 10px;
 		font-size: 1.1rem;
 	}
@@ -125,6 +132,10 @@
 			color: $pink;
 		}
 	}
+	p {
+		margin-top: 10px;
+		margin-bottom: 7px;
+	}
 }
 
 .multiple-img {
@@ -141,16 +152,63 @@
 
 .ux-img {
 	@media only screen and (max-width: 768px) {
-		padding: 0 5px;
-		.col-6 {
-			padding-right: 10px;
-			padding-left: 10px;
-		}
+		//padding: 0 5px;
+		// .col-6 {
+		// 	padding-right: 10px;
+		// 	padding-left: 10px;
+		// }
 	}
 	img {
 		width: 100%;
 	}
-	.col-6 {
+	>div {
 		padding-top: 20px;
 	}
+}
+
+.view-site {
+	.fa-angle-right {
+		margin-left: 5px;
+		margin-bottom: -2px;
+	}
+}
+
+span.view-site {
+	margin-left: 15px;
+}
+
+.logo-grid {
+	position: relative;
+	height: 120px;
+	transition: .7s;
+	width: 100%;
+	margin-top: 30px;
+	img {
+		position: absolute;
+		top: 0;
+		left: 50%;
+		transform: translateX(-50%);
+		height: 100%;
+		cursor: pointer;
+		margin-top: 0 !important;
+	}
+	@media only screen and (min-width: 992px) {
+		height: 200px;
+	}
+	@media only screen and (min-width: 992px) {
+		height: 300px;
+	}
+	.grid {
+		opacity: 0;
+		transition: .5s;
+		transform: translateX(-38.5%);
+		&:hover {
+			opacity: 1;
+		}
+	}
+	
+}
+
+.stressed {
+	font-style: italic;
 }
