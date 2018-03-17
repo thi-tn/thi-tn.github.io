@@ -1,39 +1,48 @@
 .row.position {
-	margin-bottom: 30px;
+	margin-bottom: 60px;
 }
 
 #experiences {
 	.title {
 		color: $pink;
+		font-size: 18px;
+		font-family: 'Poppins', sans-serif;
+		font-weight: 700;
+		margin-top: 10px;
 		//border-bottom: 2px $bodyColor solid;
+	}
+	.sub-title {
+		font-family: 'Poppins';
+		font-weight: 500;
+		color: $grey;
 	}
 	@media only screen and (max-width: 576px) {
 		.title {
-			//margin-top: 10px;
-			margin-bottom: 15px;
+			// margin-top: 10px;
+			margin-bottom: 10px;
 		}
 		.sub-title {
-			margin-bottom: 0;
+			margin-bottom: 20px;
 		}
 	}
 }
 
 .exp-details {
 	position: relative;
-	padding-left: 30px;
-	&:after {
-		content: "";
-		background-color: #909090;
-		position: absolute;
-		top: 0;
-		left: 15px;
-		width: 4px;
-		height: 100%;
-		@media only screen and (min-width: 576px) {
-			left: 0;
-		}
-	}
-	@media only screen and (min-width: 576px) {
-		padding-left: 19px; //15px + 4px
-	}
+	//padding-left: 30px;
+	// &:after {
+	// 	content: "";
+	// 	background-color: #909090;
+	// 	position: absolute;
+	// 	top: 0;
+	// 	left: 15px;
+	// 	width: 4px;
+	// 	height: 100%;
+	// 	@media only screen and (min-width: 576px) {
+	// 		left: 0;
+	// 	}
+	// }
+	// @media only screen and (min-width: 576px) {
+	// 	padding-left: 19px; //15px + 4px
+	// }
 }
