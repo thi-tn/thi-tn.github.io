@@ -49,6 +49,7 @@ button:hover, button:active, button:focus {
   outline: none; }
 
 .title {
+  color: #3b3b3b;
   font-family: 'Poppins', sans-serif;
   font-weight: 700; }
 
@@ -309,9 +310,17 @@ nav {
       padding-right: 60px;
       padding-left: 60px; } }
 
+#works-carousel .work-title {
+  font-size: 1.5rem;
+  font-family: 'Poppins', sans-serif;
+  color: #E66E6E; }
+  @media only screen and (min-width: 768px) {
+    #works-carousel .work-title {
+      font-size: 2rem; } }
+
 #works-carousel .title {
   margin-top: 35px;
-  font-size: 1.3rem; }
+  font-size: 1.2rem; }
   @media only screen and (min-width: 992px) {
     #works-carousel .title {
       margin-top: 40px; } }
@@ -319,7 +328,7 @@ nav {
 #works-carousel .sub-title {
   margin-top: 25px;
   margin-bottom: 10px;
-  font-size: 1.1rem; }
+  font-size: 1rem; }
 
 #works-carousel .carousel-item li {
   color: #6b6b6b; }

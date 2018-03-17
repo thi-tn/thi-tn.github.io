@@ -76,9 +76,17 @@
 			padding-left: 60px;
 		}
 	}
+	.work-title {
+		font-size: 1.5rem;
+		font-family: 'Poppins', sans-serif;
+		color: $pink;
+		@media only screen and (min-width: 768px) {
+			font-size: 2rem;
+		}
+	}
 	.title {
 		margin-top: 35px;
-		font-size: 1.3rem;
+		font-size: 1.2rem;
 		@media only screen and (min-width: 992px) {
 			margin-top: 40px;
 		}
@@ -86,7 +94,7 @@
 	.sub-title {
 		margin-top: 25px;
 		margin-bottom: 10px;
-		font-size: 1.1rem;
+		font-size: 1rem;
 	}
 	.carousel-item {
 		li {
