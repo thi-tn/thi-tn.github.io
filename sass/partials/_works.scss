@@ -79,7 +79,7 @@
 	.work-title {
 		font-size: 1.5rem;
 		font-family: 'Poppins', sans-serif;
-		color: $pink;
+		color: $grey;
 		@media only screen and (min-width: 768px) {
 			font-size: 2rem;
 		}
@@ -87,6 +87,7 @@
 	.title {
 		margin-top: 35px;
 		font-size: 1.2rem;
+		color: $bodyColor;
 		@media only screen and (min-width: 992px) {
 			margin-top: 40px;
 		}
@@ -95,6 +96,7 @@
 		margin-top: 25px;
 		margin-bottom: 10px;
 		font-size: 1rem;
+		color: $grey;
 	}
 	.carousel-item {
 		li {
@@ -135,7 +137,7 @@
 	padding-top: 30px;
 	h3 {font-size: 1.5rem;}
 	a {
-		font-weight: 600;
+		font-weight: 500;
 		&:hover, &:focus, &:active {
 			color: $pink;
 		}
@@ -175,6 +177,8 @@
 }
 
 .view-site {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
 	.fa-angle-right {
 		margin-left: 5px;
 		margin-bottom: -2px;
