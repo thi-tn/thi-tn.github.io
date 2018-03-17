@@ -313,15 +313,14 @@ nav {
 #works-carousel .work-title {
   font-size: 1.5rem;
   font-family: 'Poppins', sans-serif;
-  color: #3b3b3b; }
+  color: #E66E6E; }
   @media only screen and (min-width: 768px) {
     #works-carousel .work-title {
       font-size: 2rem; } }
 
 #works-carousel .title {
   margin-top: 35px;
-  font-size: 1.2rem;
-  color: #6b6b6b; }
+  font-size: 1.2rem; }
   @media only screen and (min-width: 992px) {
     #works-carousel .title {
       margin-top: 40px; } }
@@ -329,8 +328,7 @@ nav {
 #works-carousel .sub-title {
   margin-top: 25px;
   margin-bottom: 10px;
-  font-size: 1rem;
-  color: #3b3b3b; }
+  font-size: 1rem; }
 
 #works-carousel .carousel-item li {
   color: #6b6b6b; }
@@ -363,7 +361,7 @@ nav {
   .works-caption h3 {
     font-size: 1.5rem; }
   .works-caption a {
-    font-weight: 500; }
+    font-weight: 600; }
     .works-caption a:hover, .works-caption a:focus, .works-caption a:active {
       color: #E66E6E; }
   .works-caption p {
@@ -385,12 +383,9 @@ nav {
 .ux-img > div {
   padding-top: 20px; }
 
-.view-site {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500; }
-  .view-site .fa-angle-right {
-    margin-left: 5px;
-    margin-bottom: -2px; }
+.view-site .fa-angle-right {
+  margin-left: 5px;
+  margin-bottom: -2px; }
 
 span.view-site {
   margin-left: 15px; }
