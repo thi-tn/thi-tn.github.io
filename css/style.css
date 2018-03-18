@@ -367,6 +367,7 @@ nav {
     .works-caption a:hover, .works-caption a:focus, .works-caption a:active {
       color: #E66E6E; }
   .works-caption p {
+    font-size: 16px;
     margin-top: 10px;
     margin-bottom: 7px; }
 
