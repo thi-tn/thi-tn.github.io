@@ -335,6 +335,13 @@ nav {
 #works-carousel .carousel-item li {
   color: #6b6b6b; }
 
+@media only screen and (min-width: 768px) {
+  #works-carousel .carousel-item img.w-100.vert {
+    height: 100vh !important;
+    width: auto !important;
+    margin-left: auto;
+    margin-right: auto; } }
+
 .works-thumb {
   cursor: pointer;
   transition: .3s ease-in-out; }
