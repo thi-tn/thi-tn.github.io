@@ -342,6 +342,10 @@ nav {
     margin-left: auto;
     margin-right: auto; } }
 
+#works-carousel .prototype {
+  margin-left: 50%;
+  transform: translateX(-50%); }
+
 .works-thumb {
   cursor: pointer;
   transition: .3s ease-in-out; }
