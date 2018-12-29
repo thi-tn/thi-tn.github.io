@@ -1,0 +1,27 @@
+<div class="carousel-item">
+							      <img src="photos/uiux/taglabs.png" class="d-block w-100">
+							      <div class="works-caption">
+								    <h3 class="work-title">T.A.G. Labs Website</h3 class="work-title">
+								    <h4 class="title">Overview</h4>
+								    <p>T.A.G. (Technology and Gaming) Labs is a D.C. based nonprofit launched in 2013 by technology professionals with a passion for teaching young people coding and other S.T.E.A.M. related skills through the building of interactive gaming experiences.</p>
+									  <h4 class="title">My Role</h4>
+									  <p>I have been an intern at T.A.G. Labs since March 2017. Together with the Web Design/Development team, I have been working on the T.A.G. Labs website.</p>
+									  <p>My usual tasks include adding new content to the website, which range across various forms such as interactive graphics and webpages.</p>
+									  <p>While working on the website, I follow two main objectives:</p>
+									  	<ul>
+									  		<li><p>To make the T.A.G. Labs website engaging to students and potential sponsors.</p></li>
+									  		<li><p>To keep the styles of the newly added content consistent with the original web theme in particular and with the T.A.G. Labs brand identity in general.</p></li>
+									  	</ul>
+									<h4 class="title">
+										The Site
+										<span class="view-site"><a target="_blank" href="http://taglabs.org/">view site<i class="fas fa-angle-right"></i></a></span>
+									</h4>   
+									  <p>Some of the content I worked on:</p>
+									  <div class="row ux-img">
+									  	<div class="col-12 col-lg-6"><img src="photos/uiux/tag/our-impact.png"></div>
+									  	<div class="col-12 col-lg-6"><img src="photos/uiux/tag/get-involved.png"></div>
+									  	<div class="col-12 col-lg-6"><img src="photos/uiux/tag/programs.png"></div>
+									  	<div class="col-12 col-lg-6"><img src="photos/uiux/tag/arcade.png"></div>
+									  </div>
+								  </div> <!-- caption -->
+							    </div>

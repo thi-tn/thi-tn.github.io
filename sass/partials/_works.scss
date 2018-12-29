@@ -161,6 +161,16 @@
 		margin-top: 10px;
 		margin-bottom: 7px;
 	}
+	
+	.view-site {
+		margin-top: 20px;
+		font-family: 'Poppins', sans-serif;
+		font-weight: 500;
+		.fa-angle-right {
+			margin-left: 5px;
+			margin-bottom: -2px;
+		}
+	}
 }
 
 .multiple-img {
@@ -191,14 +201,10 @@
 	}
 }
 
-.view-site {
-	font-family: 'Poppins', sans-serif;
-	font-weight: 500;
-	.fa-angle-right {
-		margin-left: 5px;
-		margin-bottom: -2px;
-	}
+.shadowed-img {
+	box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
 }
+
 
 span.view-site {
 	margin-left: 15px;
