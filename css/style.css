@@ -307,8 +307,8 @@ nav {
   padding-right: 15px; }
   @media only screen and (min-width: 992px) {
     #works-carousel .works-caption {
-      padding-right: 60px;
-      padding-left: 60px; } }
+      padding-right: 100px;
+      padding-left: 100px; } }
 
 #works-carousel .work-title {
   font-size: 1.5rem;
