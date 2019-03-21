@@ -330,6 +330,10 @@ nav {
     padding-right: 15px;
     padding-bottom: 15px; } }
 
+#works .wireframe-img {
+  box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px; }
+
 #works-carousel .works-caption {
   padding-left: 15px;
   padding-right: 15px; }
