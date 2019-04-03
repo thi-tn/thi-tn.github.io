@@ -1,0 +1,4 @@
+"case-study.html" AuthType Basic  
+AuthName "restricted area"  
+AuthUserFile thi-tn.github.io/google-excercise/.htpasswd  
+require valid-user
