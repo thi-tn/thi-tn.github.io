@@ -13,4 +13,18 @@ $(function() {
 	$('nav .navbar-toggler').click(function() {
 		$('nav').toggleClass('activeButton');
 	});
+
+	// filtering
+	$("#works .nav-item a").on("click", function() {
+		var value = $(this).attr("tag");
+		console.log(value);
+		if (value == "all") {
+			$("#tab-content .thumb-wrapper").toggle(true);
+		} else {
+			$("#tab-content .thumb-wrapper").filter(function(){
+				$(this).toggle($(this).attr("tag") == value);
+				console.log($(this).attr("tag") == value);
+			});
+		}
+	});
 });

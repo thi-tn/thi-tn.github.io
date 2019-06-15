@@ -29,6 +29,13 @@
 
 .exp-details {
 	position: relative;
+	ul {
+		padding-left: 15px;
+		li {
+			line-height: normal;
+			padding-bottom: calc(14px*1/3);
+		}
+	}
 	//padding-left: 30px;
 	// &:after {
 	// 	content: "";
