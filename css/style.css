@@ -123,17 +123,25 @@ nav {
     display: none; } }
 
 .bio {
-  margin-top: 30px; }
+  margin-top: 30px;
+  margin-bottom: 30px; }
   .bio button {
-    margin-top: 30px;
+    margin-top: 15px;
+    margin-right: 10px;
+    width: 170px;
+    text-transform: uppercase;
     background-image: none;
     background-color: transparent;
     border-radius: 7px;
-    border: 1px solid #6b6b6b;
-    padding: 5px 20px; }
+    border: 2px solid #dadada;
+    padding: 8px 10px;
+    font-size: 12px;
+    color: #afafaf;
+    font-family: Poppins;
+    font-weight: 700; }
     .bio button:hover, .bio button:focus, .bio button:active {
-      border: 0;
-      font-weight: 600; }
+      background-color: #dadada;
+      color: #6b6b6b; }
   .bio .quick-links a {
     font-weight: 600; }
 
