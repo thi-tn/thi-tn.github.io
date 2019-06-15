@@ -5,7 +5,7 @@
 #experiences {
 	.title {
 		color: $pink;
-		font-size: 18px;
+		font-size: 20px;
 		font-family: 'Poppins', sans-serif;
 		font-weight: 700;
 		margin-top: 10px;
@@ -14,7 +14,11 @@
 	.sub-title {
 		font-family: 'Poppins';
 		font-weight: 500;
-		color: $grey;
+		font-size: 14px;
+		color: $navColor;
+	}
+	.exp-duration {
+		font-size: 13px;	
 	}
 	@media only screen and (max-width: 576px) {
 		.title {
@@ -32,7 +36,7 @@
 	ul {
 		padding-left: 15px;
 		li {
-			line-height: normal;
+			line-height: 1.5;
 			padding-bottom: calc(14px*1/3);
 		}
 	}
