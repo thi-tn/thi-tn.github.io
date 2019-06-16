@@ -1,3 +1,7 @@
+'use strict';
+
+var Shuffle = window.Shuffle;
+
 $(function() {
 	$('#works .img-11').click(function() {
 		var id = $('#works .img-11').index($(this));
