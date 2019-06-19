@@ -54,4 +54,8 @@ $(function() {
 			});
 		}
 	});
+
+	//update year for copyright
+	var d = new Date();
+	$('#year').html(d.getFullYear());
 });

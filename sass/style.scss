@@ -15,14 +15,39 @@ main {
 	top: 100px;
 	left: 0;
 	width: 100%;
-	padding-bottom: 30px;
+	padding-bottom: 60px;
+	min-height: calc(100vh - 100px);
 	@media only screen and (min-width: 576px) {
 		top: 150px;
+		min-height: calc(100vh - 150px);
 	}
 	// @media only screen and (min-width: 992px) {
 	// 	top: 180px;
 	// }
 	
+}
+
+#footer {
+	position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    text-align: right;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    p {
+    	font-size: 10px;
+    	color: #d0d0d0;
+    	text-transform: uppercase;
+    	letter-spacing: 1px;
+    	font-family: 'Poppins', sans-serif;
+    	 @media only screen and (min-width: 992px) {
+    	 	font-size: 12px;
+    	 }
+    }
+    @media only screen and (min-width: 576px) {
+		padding-right: calc(16px + 1rem);
+	}
 }
 
 h1, h2 {
