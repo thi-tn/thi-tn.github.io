@@ -1,6 +1,6 @@
-'use strict';
+// 'use strict';
 
-var Shuffle = window.Shuffle;
+// var Shuffle = window.Shuffle;
 
 $(function() {
 	$('#works .img-11').click(function() {
@@ -18,15 +18,38 @@ $(function() {
 		$('nav').toggleClass('activeButton');
 	});
 
-	// filtering
+
+	// Works Filters
+
+	//show UIUX be default
+	var defaultTag = "uiux";
+	//$("#tab-content .thumb-wrapper").toggle($(this).attr("tag").includes("defaultTag"));
+	$("#tab-content .thumb-wrapper").filter(function(){
+		$(this).toggle($(this).attr("tag").includes(defaultTag));
+	});
+	$("#works .nav-item a").filter(function(){
+		if ($(this).attr("tag").includes(defaultTag)) {
+			
+		}
+	});
+
+	//filter on clicking tags
 	$("#works .nav-item a").on("click", function() {
 		var value = $(this).attr("tag");
 		console.log(value);
 		if (value == "all") {
-			$("#tab-content .thumb-wrapper").toggle(true);
+			$("#tab-content .thumb-wrapper").hide();
+			$("#tab-content .thumb-wrapper").fadeIn('slow');
 		} else {
 			$("#tab-content .thumb-wrapper").filter(function(){
-				$(this).toggle($(this).attr("tag") == value);
+				if ($(this).attr("tag").includes(value)) {
+					$(this).hide();
+					$(this).fadeIn('slow');
+				}
+				else {
+					$(this).fadeOut('slow');
+				}
+				//$(this).toggle($(this).attr("tag") == value);
 				console.log($(this).attr("tag") == value);
 			});
 		}

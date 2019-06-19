@@ -259,13 +259,24 @@ nav {
 #works .nav-link {
   color: #afafaf;
   font-size: 12px;
-  font-weight: 600;
-  text-transform: uppercase; }
-  #works .nav-link:hover, #works .nav-link:focus, #works .nav-link:active {
+  font-weight: 700;
+  padding: .1rem .8rem; }
+  #works .nav-link:hover {
+    color: #6b6b6b; }
+  #works .nav-link:focus, #works .nav-link:active, #works .nav-link:focus-within {
     color: #3b3b3b; }
-  @media only screen and (min-width: 576px) {
-    #works .nav-link {
-      font-size: 1.2rem; } }
+
+@media only screen and (min-width: 576px) {
+  #works .nav {
+    padding-bottom: 15px; }
+  #works .nav-link {
+    font-size: 1rem; } }
+
+@media only screen and (min-width: 992px) {
+  #works .nav-link {
+    padding-left: 30px; }
+  #works .thumb-wrapper {
+    padding: 30px; } }
 
 #works .works-thumb-title {
   opacity: 0;
@@ -338,8 +349,6 @@ nav {
   bottom: initial; }
 
 @media only screen and (min-width: 768px) {
-  #works .thumb-wrapper {
-    padding: 30px; }
   #works .nav-tabs {
     padding-left: 15px;
     padding-right: 15px;
@@ -374,10 +383,11 @@ nav {
       margin-top: 40px; } }
 
 #works-carousel .sub-title {
-  margin-top: 25px;
-  margin-bottom: 10px;
+  margin-top: 30px;
+  margin-bottom: 15px;
   font-size: 1rem;
-  color: #3b3b3b; }
+  color: #3b3b3b;
+  font-weight: 700; }
 
 #works-carousel .carousel-item li {
   color: #6b6b6b; }
@@ -420,9 +430,12 @@ nav {
     .works-caption a:hover, .works-caption a:focus, .works-caption a:active {
       color: #E66E6E; }
   .works-caption p {
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 10px;
     margin-bottom: 7px; }
+    @media only screen and (min-width: 992px) {
+      .works-caption p {
+        font-size: 16px; } }
   .works-caption .view-site {
     margin-top: 20px;
     font-family: 'Poppins', sans-serif;

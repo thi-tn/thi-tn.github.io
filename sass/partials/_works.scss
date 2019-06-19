@@ -8,13 +8,31 @@
 	.nav-link {
 		color: $navColor;
 		font-size: 12px;
-		font-weight: 600;
-		text-transform: uppercase;
-		&:hover, &:focus, &:active{
+		font-weight: 700;
+		padding: .1rem .8rem;
+		&:hover {
+			color: $bodyColor;
+		}
+		&:focus, &:active, &:focus-within {
 			color: $grey;
 		}
-		@media only screen and (min-width: 576px) {
-			font-size: 1.2rem;
+		
+	}
+	@media only screen and (min-width: 576px) {
+		.nav {
+			padding-bottom: 15px;
+		}
+		.nav-link {
+			font-size: 1rem;
+		}
+	}
+	@media only screen and (min-width: 992px) {
+
+		.nav-link {
+			padding-left: 30px;
+		}
+		.thumb-wrapper {
+			padding: 30px;
 		}
 	}
 	.works-thumb-title {
@@ -91,9 +109,7 @@
     	bottom: initial;
 	}
 	@media only screen and (min-width: 768px) {
-		.thumb-wrapper {
-			padding: 30px;
-		}
+		
 		.nav-tabs {
 			padding-left: 15px;
 			padding-right: 15px;
@@ -132,10 +148,11 @@
 		}
 	}
 	.sub-title {
-		margin-top: 25px;
-		margin-bottom: 10px;
+		margin-top: 30px;
+		margin-bottom: 15px;
 		font-size: 1rem;
 		color: $grey;
+		font-weight: 700;
 	}
 	.carousel-item {
 		li {
@@ -189,9 +206,12 @@
 		}
 	}
 	p {
-		font-size: 16px;
+		font-size: 14px;
 		margin-top: 10px;
 		margin-bottom: 7px;
+		@media only screen and (min-width: 992px) {
+			font-size: 16px;
+		}
 	}
 	
 	.view-site {
