@@ -447,6 +447,21 @@ nav {
     object-fit: cover;
     object-position: center; }
 
+.img-fullwidth {
+  width: 100%;
+  margin-top: 16px;
+  padding-bottom: 16px; }
+  @media only screen and (min-width: 992px) {
+    .img-fullwidth {
+      margin-top: 30px;
+      padding-bottom: 30px; } }
+
+@media only screen and (min-width: 992px) {
+  .img-fullwidth.img-halfwidth {
+    width: 50%;
+    margin-left: 50%;
+    transform: translateX(-50%); } }
+
 .works-caption {
   padding-top: 30px; }
   .works-caption h3 {

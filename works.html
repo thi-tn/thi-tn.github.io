@@ -80,6 +80,14 @@
 								<div class="thumb-wrapper col-6 col-sm-4 col-lg-3" tag="uiux">
 									<div class="img-11" data-toggle="modal" data-target="#worksSlider" >
 										<div class="img-11-inner">
+											<img class="works-thumb" src="photos/uiux/community-issues-reporting/issue-report-cover.png">
+											<p class="works-thumb-title">College Residential Community Issue Reporting App</p>
+										</div>
+									</div>
+								</div>
+								<div class="thumb-wrapper col-6 col-sm-4 col-lg-3" tag="uiux">
+									<div class="img-11" data-toggle="modal" data-target="#worksSlider" >
+										<div class="img-11-inner">
 											<img class="works-thumb" src="photos/uiux/siriusxm-cancelation/cancelation-thumb.png">
 											<p class="works-thumb-title">SiriusXM Online Cancelation</p>
 										</div>
@@ -362,8 +370,108 @@
 					      <div class="modal-body">
 					        <div id="works-carousel" class="carousel slide" data-interval="false">
 							  <div class="carousel-inner">
-							  	<!-- SIRIUSXM ONLINE CANCELATION -->
+
+								<!-- COMMUNITY ISSUES REPORTING APP -->
 							  	<div class="carousel-item active">
+							  		<img src="photos/uiux/community-issues-reporting/issue-report-cover.png" class="d-block w-100">
+							  		<div class="works-caption">
+							  			<h3 class="work-title">College Residential Community Issue Reporting App</h3 class="work-title">
+							  			<h4 class="title">Overview</h4>
+							  			<p>This project presents a design concept of an issue reporting mobile app for a college residential community. Having lived in dorms all through my 4 years in college, I have witnessed my own and my peers' experience with maintenance, most of which was unfortunately inefficient and sometimes painstaking. This inspired me to research and design and system for a college residential community, which allows users to report issues and track the progress on resolutions.
+										</p>
+										<h5 class="sub-title">Constraints</h5>
+										<p>To keep the project more manageable, I mainly focused on the residents’ side of the product’s experience. I designed the experience with an intention of it being a larger, cohesive system that connects residents with management and maintenance; however, for this exercise, I focused on mainly the residents, to narrow my users down to one single type. More details regarding my intended system could be found in my stretch goals, which I will be discussed at the end of this case study.</p>
+										<p>I also approached this exercise primarily as a mobile application. This constraint was decided using my findings during the research phase (discussed in the next section). I found that most target users need a rapid and fussless way to report an issue. This is generally more easily achieved with a mobile application as opposed to a webapp, and also more suitable for such a type of user as young college students, who are avid cellphone users.</p>
+							  			<h4 class="title">Discovery & Research</h4>
+							  			<h5 class="sub-title">User Interview</h5>
+							  			<p>I started by gathering information about my target users. To do this, I first conducted user intervews on the experience of reporting issues regarding maintenance or safety in college residence halls. The interview questions were about the frequency at which a student has to report an issue to management, common reported issues, and the intuitiveness of the process from starting a report to having an issue resolved.</p>
+							  			<p>
+							  			I conducted interview sessions with 5 students at my school - Howard University. Based on the responses, I observed common patterns, pain points, needs, and behaviors, which I sorted out using an affinity map approach. From these findings, I was able to deduce valuable conclusions about the goals for the system.
+							  			</p>
+							  			<img class="img-fullwidth" src="photos/uiux/community-issues-reporting/affinity-map.jpg">
+							  			<p>From the interviews, I was able to narrow down the following common problems:</p>
+							  			<ul>
+							  				<li><p>It’s easy to report an issue but hard to track the progress.</p></li>
+							  				<li><p>Some students would prefer to call their residence assistant or front desk rather than filling out a long form.</p></li>
+							  				<li><p>Most students usually encounter issues related to damaged facilities or fire hazards.</p></li>
+							  			</ul>
+
+							  			<h5 class="sub-title">Competitive Analysis</h5>
+							  			<p>Along with interviewing target users, I also conducted a competitive analysis on similar products to get a better insight into how the experience of community issue reporting is designed and executed. I explored 3 mobile apps: Spotlight, Bos:311, and SeeClickFix.</p>
+							  			<img class="img-fullwidth" src="photos/uiux/community-issues-reporting/competitive-analysis.png">
+							  			<p>This analysis helped me form a general idea of what is expected in an issue reporting app, how such an app should be structured, as well as certain flaws I’d want to avoid in my design of this experience.</p>
+							  			<h4 class="title">Define</h4>
+							  			<h5 class="sub-title">Problem Statement</h5>
+							  			<p>TFrom the interviews and the competitive analysis, I was able to define a problem statement:</p>
+							  			<p style="font-style: italic;">Residents of college residential communities needs a way to conveniently report an issue and track its resolution, because communication from management is often lacking and the reporting process is inefficient.</p>
+							  			<p>To solve this problem, I define 3 major goals:</p>
+							  			<ul>
+							  				<li><p>Provide a quick and easy way for residents to report an issue.</p></li>
+							  				<li><p>Present residents with sufficient details to track the progress of an issue’s resolution.</p></li>
+							  				<li><p>Efficiently connect residents with management and maintenance workers.</p></li>
+							  			</ul>
+							  			<h5 class="sub-title">Personas & User Journey Map</h5>
+							  			
+							  			<p>Using the findings from the survey, I developed 2 main personas and journey maps for my application: an active user and a conditional user.</p>
+							  			<p><b>Lisa Thomas - Active User</b></p>
+							  			<p>Lisa is an active user who generally pays more attention to her surroundings and living environment. She would take matter into her own hand to report an issue, and often would do so promptly.</p>
+							  			<img class="img-fullwidth" src="photos/uiux/community-issues-reporting/persona-lisa.jpg">
+							  			<p><b>Chris Anderson - Conditional user</b></p>
+							  			<p>Chris is a conditional user who doesn’t actively feel responsible for issues that don’t directly affect him. For issues that personally interest him, Chris would not always promptly take action, unless the issue requires urgent help.</p>
+							  			<img class="img-fullwidth" src="photos/uiux/community-issues-reporting/persona-chris.jpg">
+							  			<p>Using these personas, I mapped out two user journey maps for each persona. The journey maps helped pinpoint the target users' key interactions with the app, their behaviors, and opportunities to solve their pain points, as these users go through each step of the issue reporting task.</p>
+							  			<img class="img-fullwidth" src="photos/uiux/community-issues-reporting/journey-map-lisa.jpg">
+							  			<img class="img-fullwidth" src="photos/uiux/community-issues-reporting/journey-map-chris.jpg">
+							  			<p>These personas and journey maps were significantly helpful during the next step of brainstorming and ideation, as they helped revealing major pain points and the application’s potential opportunities to address those difficulties.</p>
+
+							  			<h4 class="title">Brainstorming & Ideation</h4>
+							  			<p>Using my synthesized research findings, I started brainstorming possible solutions, first by whiteboarding ideas and rough sketches to form rough ideas of how a user would interact with the app and complete a task. After a few rounds of iterations, I was able to start forming the features list and user flow of the application.</p>
+							  			<img class="img-fullwidth" src="photos/uiux/community-issues-reporting/userflow1.jpg">
+							  			<img class="img-fullwidth" src="photos/uiux/community-issues-reporting/userflow2.jpg">
+							  			<p>Since the application revolves around the one experience of reporting an issue, I opted for a bottom navigation with 3 main views, with the reporting form being the action of the FAB:</p>
+							  			<ul>
+							  				<li><p>Reports (the default home view): a list of reported issues</p></li>
+							  				<li><p>Create new report: a report form to fill out and submit.</p></li>
+							  				<li><p>Profile: an overview of the user’s information.</p></li>
+							  			</ul>
+							  			<p>After deciding on the features list and user flow, I started wireframing to determine the layout and step of the app's key screens. I first sketched on paper, then moved onto creating mid-fidelity digital wireframes.</p>
+							  			<img class="img-fullwidth" src="photos/uiux/community-issues-reporting/lofi-wireframes.png">
+							  			<p>I purposefully went with a layout inspired by Material Design, as I saw that this design system would help me easily achieve my intended look, feel, and function for the app: a clean, friendly and straightforward experience. Below is the final lo-fi wireframes after rounds of iteration in Sketch.</p>
+							  			<img class="img-fullwidth" src="photos/uiux/community-issues-reporting/midfi-wireframes.png">
+							  			<p>Using the low-fidelity wireframe, I created a rapid prototype, which was used to conduct a few usability testing sessions to evaluate the overall user flow and test my assumptions. I had 5 students complete certain tasks related to reporting issues and viewing reports, and interviewed them throughout the tests. These sessions proved to be significantly helpful, as I discovered lots of opportunities and flaws with the then-current design.</p>
+							  			<p>Overall, the test users were able to grasp the application’s features and had little to no problem completing tasks. However, they did encounter certain types of frustration along the process. Some major flaws were involved with a user’s confusion with the tags that convey an issue’s type and progress, and the inability to quickly filter through a list of reports.</p>
+
+							  			<h4 class="title">High-fidelity Mockups</h4>
+							  			<p>Taking into consideration these findings, I started iterations on the wireframes and gradually added layers of higher-fidelity elements. After a few iteration rounds, I arrived at a high-fidelity mockup phase of the application.</p>
+							  			<p>Upon launching the app for the first time, users would go through a single onboarding step of providing information on where they’re residing. This would help the application locate the users and their respective maintenance/management service.</p>
+							  			<p>The home screen - Reports - is divided into 2 main tabs: My Reports and Public Reports. The 2 distinct tabs are based on my observation that among the issues commonly reported by the participants in my survey, there are two major categories of issues: those pertaining to one’s personal interests, and those to the whole community’s. </p>
+							  			<img class="img-fullwidth" src="photos/uiux/community-issues-reporting/reports.png">
+							  			<p>While personal issues are only relevant to certain individuals, public issues affect the whole community and therefore deserves wider attention. For instance, if some gym equipments get broken, a lot of gym enthusiasts within a community might all want to know if they have been fixed. Thus, I decided to design an experience that allows common issues to be publicly displayed and followed by all individuals within a community, while personal issues are only communicated between the reporter and maintenance/management.</p>
+							  			<p>The My Reports tab show all the reports submitted by the user, both personal and public issues, since I intend for a user to be able to follow all of the issues he/she has reported. Meanwhile, Public Reports only shows the issues related to the whole community. On each tab, each report is displayed within a card that’s marked with tags indicating its progress, and whether it’s a personal or public issue, in case of the My Reports tab.</p>
+							  			<p>Upon clicking on each of the report, the card expands to a full screen display of the report’s details, which also features a timeline of updates on the issue. Here, I intend for a notification to be sent to a user whenever there’s a new update on his or her report, which he or she can choose to turn on or off in the settings. The notifications’ purpose are to enhance communication with residents about their reports, and keep them more on track with the progress of an issue’s resolution. A user also has the ability to comment on an open issue whenever there’s an update he or she would like to add.</p>
+							  			<img class="img-fullwidth img-halfwidth" src="photos/uiux/community-issues-reporting/report-detail.png">
+							  			<p>After finding through user testing that the application was lacking an ability to quickly sort and filter through a list of report, I added these functions to the Reports tab.</p><p>The user can sort the reported public issues by date or by upvotes - also a suggestion discovered from usability testing. Sorting by upvotes let a resident quickly scan through issues based on relevance, potentially saving the problem of people creating duplicate reports of the same issue. Users can also filter public reports based on location or progress. Similarly, in My Reports, users can filter reports based on type of issue and progress.</p>
+							  			<img class="img-fullwidth" src="photos/uiux/community-issues-reporting/sort-filters.png">
+							  			<p>The Create New Report view presents the user with a concise form to fill out details regarding the issue being reported. Here, I purposefully put a prompt for the type of issue at the top of the screen, to dictate which information would be displayed to the user.</p>
+							  			<img class="img-fullwidth" src="photos/uiux/community-issues-reporting/create-report.png">
+							  			<p>I decided for the application to offer 3 main types of issues: <b>personal</b>, <b>public</b>, and <b>urgent</b>. The personal and public forms are for the discussed personal and public issues, respectively. These two forms are fairly similar, with form fields being straightforward and generously spaced out to cater for better legibility. In the public issue form, a user has the option to remain anonymous when submitting a report.</p>
+							  			<p>The urgent tab provides recommended actions rather than a form, since urgent matters require immediate attention. Knowing that emergencies could happen, I put in a notice prompting the user to call 911 for these matters. Meanwhile, there could be non-emergency issues that also require prompt assistance, such as a sudden power outage or suspicious activity. For those situations, I decided to put in options to contact maintenance workers or a residence hall’s front desk.</p>
+							  			<p>Upon submitting a report form, the application would present a confirmation screen. This is particularly important, since this screen reassures users that their reports have been received, and that help is on the way.</p>
+							  			<p>In addition, upon choosing a category of issue, if the issue is a common one and can potentially be fixed without the help from a professional, users would be prompted to find help from a <b>self-help guide.</b></p>
+							  			<img class="img-fullwidth" src="photos/uiux/community-issues-reporting/self-help-guide.png">
+							  			<p>The Profile tab simply displays all of a user’s information. If users have not provided their personal contact details, they would be prompted to do so upon first opening this tab or upon editing their profile, with a notice that this provided information would save from re-entering their information for every new report created.</p>
+							  			<img class="img-fullwidth img-halfwidth" src="photos/uiux/community-issues-reporting/profile.png">
+							  			<h5 class="title">Prototype</h5>
+							  			<p>Using the high-fidelity mockups, I put together a prototype to better demonstrate the interactions involved throughout the application's experience.</p>
+							  			<iframe class="prototype" width="428" height="866" src="//invis.io/EWRCZZY5TJ4" frameborder="0" allowfullscreen></iframe>
+							  			<h5 class="title">Stretch Goals</h5>
+							  			<p>Due to time constraint and other limitations, I was not able to address several other intended elements of this experience. As discussed earlier in the case study, I designed this experience with the intention for it to be a cohesive system that could be utilized by residents, management, and maintenance workers alike. When all information is stored and communicated within one environment, it would be significantly easier for all of the mentioned parties to be notified of reports, take action, and track progress.</p>
+							  			<p>Another stretch goal for this experience is to expand it into a web application. A mobile app provides a quicker way for a college student to easily pull out his or her phone and put in a report. However, for other intended users of the system like those who work for a residence hall’s management, a web app would be more applicable. Also, under certain circumstances, a resident may need to input a lot of information, which may be more easily done on a computer as oppose to a phone.</p>
+							  		</div>
+							  	</div>
+
+							  	<!-- SIRIUSXM ONLINE CANCELATION -->
+							  	<div class="carousel-item">
 							  		<img src="photos/uiux/siriusxm-cancelation/cancelation-cover.png" class="d-block w-100">
 							  		<div class="works-caption">
 							  			<h3 class="work-title">SiriusXM Online Cancellation (Work in Progress)</h3 class="work-title">
@@ -427,17 +535,18 @@
 							  			<p>
 							  			Bearing the goals in mind, I built a navigation system that guides the user smoothly through different parts within the LMS and provides a satisfying learning experience. On the home landing page, the user is presented with 3 tabs for on-going courses, completed courses, and all courses, which features a search tool for easier browsing. These tabs provide an organized way for the user to keep track of their courses while browsing other available options.    
 							  			</p>
-							  			<img class="col-12" src="photos/uiux/tag/taglms-desktop-wireframes.jpg">
+							  			<img class="img-fullwidth" src="photos/uiux/tag/taglms-desktop-wireframes.jpg">
 							  			<p>Each course’s landing page also includes 4 tabs, each of which displays one type of information about the program, so as not to overwhelm students with too many details. In the Curriculum tab, each lesson and its sections are displayed clearly. The sections’ different type of media like reading, assignment, or video are illustrated by different icons for easy recognition.</p>
-							  			<img class="col-12" src="photos/uiux/tag/taglms-courselandingpage.jpg">
+							  			<img class="img-fullwidth" src="photos/uiux/tag/taglms-courselandingpage.jpg">
 							  			<p>Along with the desktop wireframes, I also created a mobile version with similar navigation.</p>
-							  			<img class="col-12" src="photos/uiux/tag/taglms-mobile-wireframes.jpg">
+							  			<img class="img-fullwidth" src="photos/uiux/tag/taglms-mobile-wireframes.jpg">
 							  			<h5 class="sub-title">High-Fidelity Mockups</h5>
 							  			<p>Using the wireframes, I started developing detailed mockups, adding and adjusting elements like accent colors, icons and text treatment to perfect the look and feel of the LMS.</p>
-							  			<img class="col-12" src="photos/uiux/tag/taglms-high-fidelity-mockups.jpg">
+							  			<img class="img-fullwidth" src="photos/uiux/tag/taglms-high-fidelity-mockups.jpg">
 							  			
 							  		</div>
 							  	</div>
+
 							  	<div class="carousel-item">
 							  		<img src="photos/uiux/views/veews-cover-image.jpg" class="d-block w-100">
 							  		<div class="works-caption">
@@ -467,13 +576,13 @@
 							  			</ul>
 							  			<h5 class="sub-title">Wireframe & Iteration</h5>
 							  			<p>To begin, I sketched rough wireframes from the ideas formed by our user research. Below is one of the early wireframe versions.</p>
-							  			<img class="col-12" src="photos/uiux/views/views-wireframes.png">
+							  			<img class="img-fullwidth" src="photos/uiux/views/views-wireframes.png">
 							  			<p>After getting feedback from the team, I applied necessary changes to the wireframes, then moved on to create detailed mockups and rapid prototypes. Our team had several discussions on the mockups, as we discovered flaws of the designs and explored solutions to these problems. One major finding of these discussions was that the design did not carry elements that have potentials to attract our target audience – college students. I then started making iterations of the mockups until our team agreed upon one design.</p>
 							  			<p>
 							  			As my teammates started implementing the initially approved design and created a prototype, we conducted a user testing session with Howard students. The session was significantly helpful in finding out shortcomings and limitations with the app’s features and navigation. From the test’s results, the team decided to add several changes to the app, one major of which was switching from a side menu to a bottom navigation bar as an effort to make the app’s main features more organized.</p>
 							  			<h5 class="sub-title">High-Fidelity Mockups</h5>
 							  			<!-- <p>As we are nearing our first in-house release date, I am currently iterating through the final design for this release. We are also getting ready to conduct in-depth user testing after the release.</p> -->
-							  			<img class="col-12" src="photos/uiux/views/veews-high-fidelity-mockups.png">
+							  			<img class="img-fullwidth" src="photos/uiux/views/veews-high-fidelity-mockups.png">
 							  			<h5 class="sub-title">Prototype</h5>
 							  			<p>Below is a prototype of the app's current design, which is nearing one of the last iterations before our next big update.</p>
 							  			<iframe class="prototype" width="375" height="667" src="https://xd.adobe.com/embed/849cee63-571c-4012-a806-3637bb69295b/" frameborder="0" allowfullscreen></iframe>

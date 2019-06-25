@@ -196,6 +196,24 @@
 	}
 }
 
+.img-fullwidth {
+	width: 100%;
+	margin-top: 16px;
+	padding-bottom: 16px;
+	@media only screen and (min-width: 992px) {
+		margin-top: 30px;
+		padding-bottom: 30px;
+	}
+}
+
+.img-fullwidth.img-halfwidth {
+	@media only screen and (min-width: 992px) {
+		width: 50%;
+		margin-left: 50%;
+    	transform: translateX(-50%);
+	}
+}
+
 .works-caption {
 	padding-top: 30px;
 	h3 {font-size: 1.5rem;}
@@ -238,13 +256,7 @@
 }
 
 .ux-img {
-	@media only screen and (max-width: 768px) {
-		//padding: 0 5px;
-		// .col-6 {
-		// 	padding-right: 10px;
-		// 	padding-left: 10px;
-		// }
-	}
+	
 	img {
 		width: 100%;
 	}
