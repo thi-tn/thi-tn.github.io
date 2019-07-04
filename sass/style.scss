@@ -158,6 +158,11 @@ nav {
 	}
 }
 
+.soft-shadow {
+	box-shadow: 0 3px 15px rgba(0, 0, 0, 0.07);
+    margin-bottom: 20px;
+}
+
 @media only screen and (max-width: 576px) {
 	nav.activeButton {
 		box-shadow: 2px 2px 5px #eeeeee;

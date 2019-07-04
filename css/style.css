@@ -116,6 +116,10 @@ nav {
   nav .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>"); }
 
+.soft-shadow {
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.07);
+  margin-bottom: 20px; }
+
 @media only screen and (max-width: 576px) {
   nav.activeButton {
     box-shadow: 2px 2px 5px #eeeeee; } }
@@ -429,9 +433,14 @@ nav {
     margin-right: auto; } }
 
 #works-carousel .prototype {
-  padding-top: 20px;
+  margin-top: 20px;
   margin-left: 50%;
   transform: translateX(-50%); }
+  @media only screen and (max-width: 767px) {
+    #works-carousel .prototype {
+      padding-top: 0;
+      transform: translate(-50%, -15%) scale(0.7);
+      margin-bottom: -300px; } }
 
 .img-11 {
   width: 100%;
