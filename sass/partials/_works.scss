@@ -132,7 +132,7 @@
 		}
 	}
 	.work-title {
-		font-size: 1.5rem;
+		font-size: 1.7em;
 		font-family: 'Poppins', sans-serif;
 		color: $grey;
 		@media only screen and (min-width: 768px) {
@@ -141,7 +141,7 @@
 	}
 	.title {
 		margin-top: 35px;
-		font-size: 1.2rem;
+		font-size: 1.5em;
 		color: $bodyColor;
 		@media only screen and (min-width: 992px) {
 			margin-top: 40px;
@@ -150,7 +150,7 @@
 	.sub-title {
 		margin-top: 30px;
 		margin-bottom: 15px;
-		font-size: 1rem;
+		font-size: 1.2em;
 		color: $grey;
 		font-weight: 700;
 	}
@@ -216,7 +216,7 @@
 
 .works-caption {
 	padding-top: 30px;
-	h3 {font-size: 1.5rem;}
+	//h3 {font-size: 1.5rem;}
 	a {
 		font-weight: 500;
 		&:hover, &:focus, &:active {
@@ -224,11 +224,12 @@
 		}
 	}
 	p {
-		font-size: 14px;
+		font-family: 'EB Garamond', 'Baskerville', serif;
+		font-size: 16px;
 		margin-top: 10px;
 		margin-bottom: 7px;
 		@media only screen and (min-width: 992px) {
-			font-size: 16px;
+			font-size: 18px;
 		}
 	}
 	

@@ -1,5 +1,6 @@
 body, button {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
   position: relative;
   background-color: #fff; }
 
@@ -93,7 +94,7 @@ nav {
   nav a {
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 500;
     color: #afafaf; }
     nav a:hover, nav a:focus {
       color: #3b3b3b; }
@@ -147,7 +148,8 @@ nav {
 
 .bio {
   margin-top: 30px;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  font-family: 'EB Garamond', 'Baskerville', serif; }
   .bio button {
     margin-top: 25px;
     margin-right: 10px;
@@ -394,7 +396,7 @@ nav {
       padding-left: 100px; } }
 
 #works-carousel .work-title {
-  font-size: 1.5rem;
+  font-size: 1.7em;
   font-family: 'Poppins', sans-serif;
   color: #3b3b3b; }
   @media only screen and (min-width: 768px) {
@@ -403,7 +405,7 @@ nav {
 
 #works-carousel .title {
   margin-top: 35px;
-  font-size: 1.2rem;
+  font-size: 1.5em;
   color: #6b6b6b; }
   @media only screen and (min-width: 992px) {
     #works-carousel .title {
@@ -412,7 +414,7 @@ nav {
 #works-carousel .sub-title {
   margin-top: 30px;
   margin-bottom: 15px;
-  font-size: 1rem;
+  font-size: 1.2em;
   color: #3b3b3b;
   font-weight: 700; }
 
@@ -465,19 +467,18 @@ nav {
 
 .works-caption {
   padding-top: 30px; }
-  .works-caption h3 {
-    font-size: 1.5rem; }
   .works-caption a {
     font-weight: 500; }
     .works-caption a:hover, .works-caption a:focus, .works-caption a:active {
       color: #E66E6E; }
   .works-caption p {
-    font-size: 14px;
+    font-family: 'EB Garamond', 'Baskerville', serif;
+    font-size: 16px;
     margin-top: 10px;
     margin-bottom: 7px; }
     @media only screen and (min-width: 992px) {
       .works-caption p {
-        font-size: 16px; } }
+        font-size: 18px; } }
   .works-caption .view-site {
     margin-top: 20px;
     font-family: 'Poppins', sans-serif;

@@ -6,7 +6,8 @@ $navColor: #afafaf;
 
 
 body, button {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
 	position: relative;
 	background-color: #fff;
 }
@@ -120,7 +121,7 @@ nav {
 	a {
 		font-family: 'Poppins', sans-serif;
 		font-size: 14px;
-		font-weight: 400;
+		font-weight: 500;
 		color: $navColor;
 		&:hover, &:focus {
 			color: $grey;
