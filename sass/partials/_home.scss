@@ -33,28 +33,47 @@
 	margin-top: 30px;
 	margin-bottom: 30px;
 	//font-family: 'EB Garamond', 'Baskerville', serif;
+	// button {
+	// 	margin-top: 25px;
+	//     margin-right: 10px;
+	//     width: 170px;
+	//     text-transform: uppercase;
+	//     background-image: none;
+	//     background-color: #e66e6e;
+	//     border: none;
+	//     padding: 12px 10px;
+	//     font-size: 12px;
+	//     color: #ffffff;
+	//     font-family: Poppins;
+	//     font-weight: 700;
+	//     box-shadow: 0px 5px 10px rgba(230, 110, 110, 0.39);
+	// 	&:hover {
+	// 		background-color: $grey;
+	// 		transform: scale(1.02);
+ //    		box-shadow: 0px 5px 20px 5px rgba(0, 0, 0, 0.3);
+	// 	}
+	// 	&:focus, &:active {
+	// 		background-color: #000;
+	// 		box-shadow: 0px 5px 20px 5px rgba(0, 0, 0, 0.3);
+	// 	}
+	// }
+
 	button {
-		margin-top: 25px;
-	    margin-right: 10px;
+		margin-top: 25px;	
+	 	//margin-bottom: 15px;
+	 	margin-right: 15px;
 	    width: 170px;
 	    text-transform: uppercase;
 	    background-image: none;
-	    background-color: #e66e6e;
 	    border: none;
 	    padding: 12px 10px;
 	    font-size: 12px;
-	    color: #ffffff;
 	    font-family: Poppins;
 	    font-weight: 700;
-	    box-shadow: 0px 5px 10px rgba(230, 110, 110, 0.39);
-		&:hover {
-			background-color: $grey;
-			transform: scale(1.02);
-    		box-shadow: 0px 5px 20px 5px rgba(0, 0, 0, 0.3);
-		}
+	   
 		&:focus, &:active {
-			background-color: #000;
-			box-shadow: 0px 5px 20px 5px rgba(0, 0, 0, 0.3);
+			background-color: $navColor;
+			//box-shadow: 0px 5px 15px 3px rgba(0, 0, 0, 0.3);
 		}
 	}
 	.quick-links {
@@ -63,3 +82,5 @@
 		}
 	}
 }
+
+

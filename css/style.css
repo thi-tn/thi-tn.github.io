@@ -72,6 +72,20 @@ button:hover, button:active, button:focus {
   border: none;
   outline: none; }
 
+.lgt-btn {
+  background-color: #fff;
+  color: #000;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2); }
+  .lgt-btn:hover {
+    box-shadow: 0px 5px 15px 3px rgba(0, 0, 0, 0.2); }
+
+.drk-btn {
+  background-color: #000;
+  color: #fff;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.5); }
+  .drk-btn:hover {
+    box-shadow: 0px 5px 15px 3px rgba(0, 0, 0, 0.5); }
+
 .title {
   color: #3b3b3b;
   font-family: 'Poppins', sans-serif;
@@ -155,25 +169,17 @@ nav {
   margin-bottom: 30px; }
   .bio button {
     margin-top: 25px;
-    margin-right: 10px;
+    margin-right: 15px;
     width: 170px;
     text-transform: uppercase;
     background-image: none;
-    background-color: #e66e6e;
     border: none;
     padding: 12px 10px;
     font-size: 12px;
-    color: #ffffff;
     font-family: Poppins;
-    font-weight: 700;
-    box-shadow: 0px 5px 10px rgba(230, 110, 110, 0.39); }
-    .bio button:hover {
-      background-color: #3b3b3b;
-      transform: scale(1.02);
-      box-shadow: 0px 5px 20px 5px rgba(0, 0, 0, 0.3); }
+    font-weight: 700; }
     .bio button:focus, .bio button:active {
-      background-color: #000;
-      box-shadow: 0px 5px 20px 5px rgba(0, 0, 0, 0.3); }
+      background-color: #afafaf; }
   .bio .quick-links a {
     font-weight: 600; }
 
