@@ -76,7 +76,15 @@
 				<div class="row" id="tab-content">
 					<!-- UIUX content tab -->
 					<div class="col-12 col-sm-10 offset-sm-1">
-						<div class="row">	
+						<div class="row">
+								<div class="thumb-wrapper col-6 col-sm-4 col-lg-3" tag="uiux">
+									<div class="img-11" data-toggle="modal" data-target="#worksSlider" >
+										<div class="img-11-inner">
+											<img class="works-thumb" src="photos/uiux/cft/cft-summaryscreen-hero.png" class="d-block w-100">
+											<p class="works-thumb-title">CashFlowTool Summary Page</p>
+										</div>
+									</div>
+								</div>	
 								<div class="thumb-wrapper col-6 col-sm-4 col-lg-3" tag="uiux">
 									<div class="img-11" data-toggle="modal" data-target="#worksSlider" >
 										<div class="img-11-inner">
@@ -137,14 +145,14 @@
 								</div>
 								
 
-								<div class="thumb-wrapper col-6 col-sm-4 col-lg-3" tag="uiux frontend">
+								<!-- <div class="thumb-wrapper col-6 col-sm-4 col-lg-3" tag="uiux frontend">
 									<div class="img-11" data-toggle="modal" data-target="#worksSlider" >
 										<div class="img-11-inner">
 											<img class="works-thumb" src="photos/uiux/portfolio-website.png">	
 										</div>
 										<p class="works-thumb-title">One Page Portfolio Template</p>
 									</div>
-								</div>
+								</div> -->
 								
 								<!-- <div class="thumb-wrapper col-6 col-sm-4 col-lg-3">
 									<div class="img-11" data-toggle="modal" data-target="#worksSlider" >
@@ -381,9 +389,58 @@
 					      <div class="modal-body">
 					        <div id="works-carousel" class="carousel slide" data-interval="false">
 							  <div class="carousel-inner">
+							  	<!-- CFT SUMMARY PAGE -->
+							  	<div class="carousel-item active">
+							  		<img src="photos/uiux/cft/cft-summaryscreen-hero.png" class="d-block w-100">
+							  		<div class="works-caption">
+							  			<h3 class="work-title">CashFlowTool Summary Page</h3 class="work-title">
+							  			<h4 class="title">Background</h4>
+										<h5 class="sub-title">The challenge</h5>
+										<p>CashFlowTool is a cash flow management service aiming to help small business owners and accountants manage the cash flow of a business. The software offers various powerful features that analyze financial data to efficiently present current cash metrics, transactions, KPIs and forecast future cash activities.
+										</p>
+										<p>When I joined the CashFlowTool team at Finagraph, the team was in the midst of developing a new key component of CashFlowTool called the Summary page. By adding this new component to CashFlowTool, the team aimed to provide users with a quick and easy way to take a glance at their businesses' financial health.</p>
+										<h5 class="sub-title">My role</h5>
+										<p>Joining Finagraph's lead UX designer in September 2019, I led the design aspect of the Summary screen project, working alongside a product manager, our Sales VP,  and a front-end developer. During the design process, we also got consultation from other stakeholders including our Director of Engineering, CFO, and CEO.
+										</p>
+										<p>The CashFlowTool Summary page feature launched on October 14, 2019.</p>
+
+										<h4 class="title">Process</h4>
+										<h5 class="sub-title">Discovery & Research</h5>
+										<p>The idea of a summary screen first got inspired by CashFlowTool users’ frequently busy schedules as business owners and accountants. From our communications and interviews with customers, we learned that a majority of our users had to handle multiple types of tasks daily and were looking for an efficient way to quickly figure out whether their businesses were doing well in terms of cash flow.</p>
+										<p>This discovery prompted us to build a tool which offers a quick at-a-glance overview of a business's cash flow during the near past and future. We saw an opportunity in this tool to help business owners and accountants:</p>
+										<ul>
+											<li>Quickly track the financial health of a business without having to check financial data daily</li>
+											<li>Make well-informed decisions based on reported cash activities</li>
+											<li>Avoid costly surprises</li>
+										</ul>
+
+										<h5 class="sub-title">Ideation &amp; Execution</h5>
+										<p>Through brainstorming sessions, I generated ideas and whiteboarded rapid sketches with a product manager and our Sales VP. We arrived at the decision to include a condensed version of our existing cash flow chart and a notification system in the screen.</p>
+										<p>The notification system is central to the screen's functionality, as it offers a tool that analyzes a business's cash flow data to sort out the most important information and alert business owner or accountant. This concept was later developed to become a service called CashGuardian™. The main challenge of the Summary screen project was to design this system.</p>
+										<p>With the design assets from the existing CashFlowTool product, I was able to start creating wireframes at high fidelity. The team met daily and occasionally consulted with stakeholders across divisions to discuss design iterations. Thanks to these meetings, we were able to gather feedback and continuously refine the wireframes, which gradually transformed into more polished mockups.
+										<br>
+										Notably, several conversations surrounded the communicativeness of the notifications, which include icons and text conveying activities, metrics, and alerts related to a business’s cash flow. These components bear crucial information to a business, yet have to be as intuitive and simple as possible. Therefore, we dedicated lots of consideration and experimenting to craft the best solution.</p>
+										<img class="img-fullwidth" src="photos/uiux/cft/cft-summary-iterations.png">
+										<p>Eventually, we settled on a final design, which was presented to stakeholders one last time for approval before getting handed over to development.</p>
+
+										<h5 class="sub-title">Implementation, Outcome &amp; More Iterations</h5>
+										<p>During the development process, I worked closely with our lead front-end developer to make sure the design was properly implemented. We made sure to transfer all elements of the design such as colors, typography, and iconography as accurately as possible.<br>
+										After the screen got released into production, the team was happy to witness a positive reaction from our user base. The Summary screen offers a quick overview-at-a-glance of business for the last 7 days and the next 7 days. With the help from CashGuardian™, the new screen provides a tool that automatically sift through all cash flow data and reports what matters most to a business.</p>
+										<img class="img-fullwidth" src="photos/uiux/cft/cft-summary-screen.png">
+										<p>The final CashGuardian™ interface design features a structured, visually pleasing and intuitive system with iconographic and textual elements that clearly display data and indicate various types of notifications. At a glance, a user can easily detect important cash flow information from the last 7days and in the next 7 days, including the amount of cash in, cash out, notable invoices, bills, and so on. This way, one can be assured of a business's cash flow situation or take needed actions accordingly.</p>
+										<img class="img-fullwidth" src="photos/uiux/cft/cft-cashguardian.png">
+										<p>The Weekly Cash Flow Chart on the Summary screen is a condensed version of our original Cash Flow Chart, with an additional interaction that allows the viewing of each week's details. This chart shows the last 12 weeks of actual data and the next 4 weeks of forecasted transactions. At a glance, a user can see how the cash balance, cash-in and cash-out amounts are trending over time. By clicking each week in the chart, one can drill down and see additional details for that specific week.</p>
+										<img class="img-fullwidth" src="photos/uiux/cft/weekly-cash-flow.gif">
+										<p>We didn’t forget to gather feedback on the new features by reaching out to customers and watching user session recordings. This way, we were able to observe users’ understanding and adoption of the new Summary screen. These efforts helped us identify technical bugs and design flaws affecting the new features’ user experience. From these discoveries, we timely devised solutions to fix the problems.</p>
+
+										<h4 class="title">Takeaways</h4>
+										<p>This was my first project at Finagraph, which gave me an amazing jumpstart as part of the CashFlowTool team. Overall, this was a fulfilling project to me, not only because it provides a powerful financial tool that helps small businesses thrive, but also because it taught me a lot on achieving an efficient workflow, the importance of iterations, and effective visual communication. Moving forward, the team will keep looking for ways to improve the Summary screen and the CashFlowTool application as a whole to bring an even better experience to our users.</p>
+
+									</div>
+								</div>
 
 								<!-- COMMUNITY ISSUES REPORTING APP -->
-							  	<div class="carousel-item active">
+							  	<div class="carousel-item">
 							  		<img src="photos/uiux/community-issues-reporting/issue-report-cover.png" class="d-block w-100">
 							  		<div class="works-caption">
 							  			<h3 class="work-title">Issue Reporting App for College Residential Communities</h3 class="work-title">
@@ -703,7 +760,9 @@
 								    
 								  </div>
 							    </div>
-							    <div class="carousel-item">
+
+							    <!-- ONE-PAGE PORTFOLIO TEMPLATE -->
+							    <!-- <div class="carousel-item">
 							      <img src="photos/uiux/portfolio-website.png" class="d-block w-100">
 							      <div class="works-caption">
 								    <h3 class="work-title">One Page Portfolio Template</h3 class="work-title">
@@ -727,7 +786,8 @@
 									</h4>
 									<p>The project’s final outcome was an online portfolio that reflected my design principles at the time, when I was in my second year of college. The design was used for my portfolio website until I started implementing a rebranding project that included a new portfolio design.</p>
 								  </div>
-							    </div>
+							    </div> -->
+							    
 							    <!-- <div class="carousel-item">
 							      <img src="photos/uiux/online-gallery.png" class="d-block w-100">
 							       <div class="works-caption">
