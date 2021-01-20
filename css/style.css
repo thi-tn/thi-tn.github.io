@@ -317,16 +317,11 @@ nav {
     padding: 30px; } }
 
 #works .works-thumb-title {
-  opacity: 0;
-  color: #fff;
+  color: #3b3b3b;
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
   font-size: 18px;
-  position: absolute;
-  width: 70%;
-  top: 50%;
-  left: 40%;
-  transform: translate(-40%, -50%);
+  margin-top: 16px;
   z-index: 999; }
 
 #works .img-11 {
@@ -334,16 +329,6 @@ nav {
   overflow: hidden;
   box-shadow: 1px 3px 10px #dedede;
   position: relative; }
-  #works .img-11:hover .works-thumb-title {
-    opacity: 1; }
-  #works .img-11:hover:after {
-    content: "";
-    background: rgba(0, 0, 0, 0.6);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%; }
   #works .img-11:hover .works-thumb {
     transition: .3s ease-in-out;
     transform: scale(1.2); }
@@ -353,7 +338,7 @@ nav {
 
 #works .thumb-wrapper {
   padding-top: 15px;
-  padding-bottom: 15px; }
+  padding-bottom: 30px; }
 
 #works .close {
   font-size: 3rem;
@@ -396,13 +381,17 @@ nav {
   box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px; }
 
+#works .img-shadowed {
+  box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.1); }
+
 #works-carousel .works-caption {
   padding-left: 15px;
   padding-right: 15px; }
   @media only screen and (min-width: 992px) {
     #works-carousel .works-caption {
       padding-right: 100px;
-      padding-left: 100px; } }
+      padding-left: 100px;
+      padding-bottom: 60px; } }
 
 #works-carousel .work-title {
   font-size: 1.7em;
@@ -413,7 +402,7 @@ nav {
       font-size: 2rem; } }
 
 #works-carousel .title {
-  margin-top: 35px;
+  margin-top: 36px;
   font-size: 1.5em;
   color: #6b6b6b; }
   @media only screen and (min-width: 992px) {
@@ -421,10 +410,17 @@ nav {
       margin-top: 40px; } }
 
 #works-carousel .sub-title {
-  margin-top: 30px;
-  margin-bottom: 15px;
+  margin-top: 32px;
+  margin-bottom: 16px;
   font-size: 1.2em;
   color: #3b3b3b;
+  font-weight: 700; }
+
+#works-carousel .sub-title-2 {
+  margin-top: 24px;
+  margin-bottom: 16px;
+  font-size: 1em;
+  color: #6b6b6b;
   font-weight: 700; }
 
 #works-carousel .carousel-item li {
@@ -467,11 +463,11 @@ nav {
 .img-fullwidth {
   width: 100%;
   margin-top: 16px;
-  padding-bottom: 16px; }
+  margin-bottom: 16px; }
   @media only screen and (min-width: 992px) {
     .img-fullwidth {
       margin-top: 30px;
-      padding-bottom: 30px; } }
+      margin-bottom: 30px; } }
 
 @media only screen and (min-width: 992px) {
   .img-fullwidth.img-halfwidth {
