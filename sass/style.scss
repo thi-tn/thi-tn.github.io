@@ -104,16 +104,16 @@ button:hover, button:active, button:focus {
 	 box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2); 
 	&:hover {
 		//transform: scale(1.02);
-		box-shadow: 0px 5px 15px 3px rgba(0, 0, 0, 0.2);
+		box-shadow: 0px 5px 12px 1px rgba(0, 0, 0, 0.2);
 	}
 }
 
 .drk-btn {
 	background-color: #000;
 	color: #fff;
-	box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.5); 
+	box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3); 
 	&:hover {
-		box-shadow: 0px 5px 15px 3px rgba(0, 0, 0, 0.5);
+		box-shadow: 0px 5px 16px rgba(0, 0, 0, 0.3);
 	}
 }
 
@@ -184,6 +184,12 @@ nav {
 .soft-shadow {
 	box-shadow: 0 3px 15px rgba(0, 0, 0, 0.07);
     margin-bottom: 20px;
+}
+
+.align-center {
+    margin-top: 20px;
+    margin-left: 50%;
+    transform: translateX(-50%);
 }
 
 @media only screen and (max-width: 576px) {

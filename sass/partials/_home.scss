@@ -83,4 +83,18 @@
 	}
 }
 
+ #selected-works {
+ 	.img-169 {
+ 		overflow: hidden;
+ 		cursor: pointer;
+ 	}
+ 	.works-thumb:hover {
+		transition: .3s ease-in-out;
+		transform: scale(1.2);
+	}
+	.works-thumb {
+		object-fit: cover;
+	}
+ }
 
+ 
