@@ -505,12 +505,15 @@ nav {
       color: #E66E6E; }
   .works-caption p {
     font-family: 'EB Garamond', 'Baskerville', serif;
-    font-size: 16px;
+    font-size: 18px;
     margin-top: 10px;
     margin-bottom: 7px; }
     @media only screen and (min-width: 992px) {
       .works-caption p {
-        font-size: 18px; } }
+        font-size: 20px;
+        line-height: 1.7; } }
+  .works-caption b {
+    font-weight: 600; }
   .works-caption .view-site {
     margin-top: 20px;
     font-family: 'Poppins', sans-serif;
@@ -518,6 +521,14 @@ nav {
     .works-caption .view-site .fa-angle-right {
       margin-left: 5px;
       margin-bottom: -2px; }
+  .works-caption p.figure-caption {
+    font-family: 'Poppins', sans-serif;
+    font-size: .9rem;
+    font-weight: 400; }
+
+p.text-call-out {
+  font-weight: 600;
+  font-size: 1.3rem; }
 
 .multiple-img .works-caption {
   padding-top: 0; }
