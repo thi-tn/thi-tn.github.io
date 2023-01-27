@@ -3,6 +3,7 @@ $grey: #3b3b3b;
 $bodyColor: #6b6b6b;
 $bodySize: 14px;
 $navColor: #afafaf;
+$grey100: #fcf9f9;
 
 
 body, button {
@@ -220,6 +221,10 @@ nav {
 		// 	padding: 5px 10px;
 		// }
 	}
+}
+
+.background-grey {
+	background-color: $grey100;
 }
 
 @import 'partials/home';
