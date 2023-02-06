@@ -163,6 +163,9 @@ nav {
 .background-grey {
   background-color: #fcf9f9; }
 
+.background-pink {
+  background-color: #fae2e2; }
+
 .intro h1 {
   margin-top: 0;
   color: #E66E6E;
@@ -513,7 +516,7 @@ nav {
     margin-bottom: 7px; }
     @media only screen and (min-width: 992px) {
       .works-caption p {
-        font-size: 20px;
+        font-size: 22px;
         line-height: 1.7; } }
   .works-caption b {
     font-weight: 600; }

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Mode Notebook: Dataframe to Chart Builder Flow (WIP) | thi nguyen</title>
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,700|Poppins:400,500,700&display=swap" rel="stylesheet">
+	    <meta charset="utf-8">
+	    <meta http-equiv="x-ua-compatible" content="ie=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body style="width: 100%;">
+		<nav class="navbar navbar-expand-sm">
+	  <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarNav">
+	    <ul class="navbar-nav">
+	      <li class="nav-item">
+	        <a class="nav-link" href="/">home</a>
+	      <li class="nav-item active">
+	        <a class="nav-link" href="work">work</a>
+	      </li>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="skills">skills</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="experience">experience</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="contact">contact</a>
+	      </li>
+	    </ul>
+	  </div>
+	  <a class="navbar-brand" href="/">
+	  	<img src="photos/logo.png">
+	  </a>
+	</nav>
+	<main>
+		<div id="works">
+			<div class="container pb-5">
+				<div class="row justify-content-center">
+					<div class="col-lg-10">
+						<img alt="CashFlowTool Standard Forecast Mode" src="photos/uiux/dftodt/cover.png" class="d-block w-100">
+						<h1 class="work-title mt-5">Mode Notebook: Dataframe to Chart Builder Flow (WIP)</h1 class="work-title">
+					</div>
+				</div>
+			</div>
+
+			<section class="background-grey"><div class="container pt-5 pb-5 ">
+				<div class="row pb-md-4">
+					<div class="col-6 col-md-4 pb-4">
+						<h6>Company</h6>
+						<p>Mode</p>
+					</div>
+					<div class="col-6 col-md-4 pb-4">
+						<h6>Team</h6>
+						<p>Team of 1 PM, 1 designer, 1 researcher, 2 front-end engineers, and 3 back-end engineers</p>
+					</div>
+					<div class="col-6 col-md-4 pb-4">
+						<h6>My Role</h6>
+						<p>Interaction Designer</p>
+					</div>
+				
+					<div class="col-6 col-md-4">
+						<h6>Timeline</h6>
+						<p>October 2022 — On-going</p>
+					</div>
+					<div class="col-6 col-md-4">
+						<h6>Tools</h6>
+						<p>Figma</p>
+					</div>
+					<div class="col-6 col-md-4"></div>
+				</div>
+			</div></section>
+
+			<div class="container pb-5">
+				<div class="row justify-content-center">
+					<div class="col-lg-10">
+					<div class="works-caption">
+
+					<h2 class="title mt-5 mb-4">Background</h2>
+					
+					<p>Mode is a tool offering a central hub for an organization’s analysis, uniting data teams and business teams around data to drive business outcome. As the lead designer on the Notebooks team, I drove design decisions for the Mode Notebook product area. The Notebook offers an intuitive interface for writing powerful Python and R to analyze data.
+					</p>
+					
+					<p>Even though Mode offers a powerful data visualization tool with the Quick Charts builder and Data Explorer, this tool has only been available for data created through SQL queries. As we have learned about growing interest from users throughout the year, the team decided to embark on an initiative to bridge the Notebook with the visualization tool.
+					</p>
+				</div>
+			</div>
+			</div></div>
+
+			<section class="background-pink">
+				<div class="container pt-5 pb-5 ">
+					<div class="row justify-content-center">
+						<div class="col-md-10 col-lg-8 text-center">
+							<p style="font-size: 1.7rem; color: #3b3b3b;" class="text-call-out"><i>How might we make dataframes created in the Notebook available for users in the chart builder?</i>
+	</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+</p>
+
+			<div class="container pb-5">
+				<div class="row justify-content-center">
+					<div class="col-lg-10">
+
+					<h2 class="title mt-5 mb-4">Process</h2>
+					
+					<h4 class="mt-5 mb-3">Ideation</h4>
+					<p>We started developing the solution by creating low-fidelity wireframes. In this phase, we focused on building a user flow from creating a dataframe in a notebook, to making it available in the visualization builder.</p>
+
+					<p>We tested out various approaches with different interactions and layouts.</p>
+
+					<div class="row ux-img">
+				  		<div class="mb-lg-4 col-md-8 col-lg-9"><img src="photos/uiux/dftodt/wireframes.png"></div>
+						<div class="pt-2 pt-md-3 mb-lg-4 col-md-4 col-lg-3"><p class="figure-caption">Early wireframes for different user flows (from top to bottom):</p>
+							<ol class="figure-caption">
+								<li>Publishing a dataframe from the Notebook
+</li>
+								<li>Adding the Notebook data to local data connection, which would be available in the SQL editor</li>
+								<li>Clicking a button to create a chart from a dataframe within the Notebook </li>
+							</ol>
+						</div>
+					</div>
+					
+					<p>We eventually settled on the concept of exporting dataframes from the Notebook to make them available for users to manipulate in the visualization builder. This approach was chosen based on its balance between a user-friendly quality and technical feasibility.
+</p>
+
+					<p>After we finalized the overall user flow, I started creating more polished mockups to add higher fidelity to details such as button labels, icons, and tooltips.</p>
+
+					<p>During this stage, we specifically had a lot of discussion on the language of the call-to-action button, i.e. the key interaction that makes the dataframe available in the chart builder. We wanted to ensure the label to stay <i>consistent with our product writing guidelines and with other terms used across the Mode product, while appropriately addressing the interaction</i>.
+</p>
+					
+					<div class="row ux-img">
+				  		<div class="mb-lg-4 col-md-8 col-lg-9"><img src="photos/uiux/dftodt/label-iterations.png"></div>
+						<div class="pt-2 pt-md-3 mb-lg-4 col-md-4 col-lg-3"><p class="figure-caption">We temporarily settled on “export,” as a placeholder, but this label required further discussion, as it could insinuate taking the data outside of the Mode product altogether.</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div></div>
+
+			<section class="background-grey"><div class="container pt-5 pb-5 ">
+				<div class="row justify-content-center">
+					<div class="col-lg-10"><div class="works-caption">
+					<h4 class="mb-4">MVP Design</h4>
+					
+					<p>After rounds of iteration, we finalized an MVP design, which we intended to use for both an initial round of user testing and MVP implementation. This design focuses on 3 main aspects of the experience: the creation flow, removal flow, and data states. </p>
+
+					<p>With the key findings, we discussed among our teams to iterate and make incorporate necessary changes into our design system.</p>
+
+					<h5 class="sub-title-2 mt-5 mb-4">Creation Flow</h5>
+
+					<div class="row ux-img">
+				  		<div class="mb-lg-4 col-md-8 col-lg-9"><img src="photos/uiux/dftodt/export.png"></div>
+						<div class="pt-2 pt-md-3 mb-lg-4 col-md-4 col-lg-3"><p class="figure-caption">From within a notebook cell, a user can easily click “Export output” to choose the action to “Export as dataframe.”</p>
+						</div>
+					
+
+						<div class="mb-lg-4 col-md-8 col-lg-9"><img src="photos/uiux/dftodt/namedf.png"></div>
+
+						<div class="pt-2 pt-md-3 mb-lg-4 col-md-4 col-lg-3"><p class="figure-caption">They would then be prompted to name the exported dataframe, and see it appear on the left navbar.</p>
+						<p class="figure-caption">The ability to name a dataframe helps users distinguish among different dataframes created from the same notebook.</p></div>
+
+						<div class="col-12"><img src="photos/uiux/dftodt/dfview.png"></div>
+						<div class="pt-2 mb-lg-4 col-12"><p class="figure-caption">Clicking on the dataframe name in the navbar opens the dataframe view, which offers 3 tabs: data, fields, and source. Each tab offers a unique aspect of the dataframe, helping users quickly determine the available data and source code.</p></div>
+					</div>
+
+					<h5 class="sub-title-2 mt-3">Removal Flow</h5>
+					<p class="pt-0 works-caption">To ensure flexibility for the workflow, we offer users 2 ways to remove an exported dataframe. They can:</p>
+					<div class="row ux-img">
+						
+				  		<div class="mb-lg-4 col-md-8 col-lg-9"><img src="photos/uiux/dftodt/removal-navbar.png"></div>
+						<div class="pt-2 pt-md-3 mb-lg-4 col-md-4 col-lg-3"><p class="figure-caption">1. Remove it via a context menu in the left navbar</p>
+						</div>
+					
+
+						<div class="mb-lg-4 col-md-8 col-lg-9"><img src="photos/uiux/dftodt/removal-nb.png"></div>
+
+						<div class="pt-2 pt-md-3 mb-lg-4 col-md-4 col-lg-3"><p class="figure-caption">2. Remove it with the “Export output” button on the Notebook toolbar. The “Export output as dataframe” acts as a toggle that allows an export or remove action based on an output’s current state.</p>
+					</div>
+
+					<h5 class="sub-title-2 mt-5">Data States</h5>
+					<p class="pt-0 works-caption">To help users quickly identify an output cell’s state and avoid unnecessary errors, we included icon identifiers and tooltip explainers throughout the experience.</p>
+					<div class="row ux-img">
+						
+				  		<div class="mb-lg-4 col-md-8 col-lg-9"><img src="photos/uiux/dftodt/icon-exported.png"></div>
+						<div class="pt-2 pt-md-3 mb-lg-4 col-md-4 col-lg-3"><p class="figure-caption">Each output cell whose dataframe has been added to the chart builder would display an icon associated with its exported state.</p>
+						</div>
+					
+
+						<div class="mb-lg-4 col-md-8 col-lg-9"><img src="photos/uiux/dftodt/error-state.png"></div>
+
+						<div class="pt-2 pt-md-3 mb-lg-4 col-md-4 col-lg-3">
+							<p class="figure-caption">When the output cell has an error, which could result from a code or runtime issue, the exported dataframe automatically falls back to the last successful run. This is to help minimize disruption in a user's workflow and prevent errors in dependencies of the exported dataframe.</p>
+							<p class="figure-caption">In this case, a warning icon, coupled of a tooltip explainer, offers clear guidance for users to clearly understand this state.</p>
+					</div>
+
+				</div></div>
+			</div></div>
+		</section>
+
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-10">
+					<div class="works-caption">
+				
+					
+
+					<h2 class="title mt-5 mb-4">Next Steps</h2>
+					<p>I left Mode shortly after the design for the MVP were finalized, so I unfortunately wasn't able to witness this project being fully realized. At the time, our next steps were to implement the MVP and conduct user testing with a prototype of this design.</p>
+
+					<p>Our user testing plan was to conduct cognitive walkthrough sessions with Mode Notebook users and use the think-aloud method to identify strengths and weaknesses of the MVP. We planned to give participants scenarios with tasks related to exporting a dataframe from a notebook and using the available data to build charts in the visualization tool.
+</p>
+					<p>With the findings from the research, we aimed to polish the user flow and ensure a smooth learning curve for existing Mode users, since it would be a new experience within the Mode product. As this feature has been an ask from many customers, I have high hopes that it, once fully implemented, will eventually serve as a powerful tool for analysts to bring data to life. </p>
+
+				</div>
+			</div>
+		</div>
+	</div>
+		</body>
+</html>
+
