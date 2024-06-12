@@ -2,7 +2,12 @@
 
 // var Shuffle = window.Shuffle;
 
+
+
 $(function() {
+
+
+
 	$('#works .img-11').click(function() {
 		var id = $('#works .img-11').index($(this));
 		$('#works .carousel-item.active').removeClass('active');
@@ -58,4 +63,5 @@ $(function() {
 	//update year for copyright
 	var d = new Date();
 	$('#year').html(d.getFullYear());
+
 });
