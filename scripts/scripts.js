@@ -6,7 +6,10 @@
 
 $(function() {
 
-
+		// import Zoomist styles
+//import '../node_modules/zoomist/css'
+// import Zoomist
+//import Zoomist from '../node_modules/zoomist'
 
 	$('#works .img-11').click(function() {
 		var id = $('#works .img-11').index($(this));
@@ -64,4 +67,5 @@ $(function() {
 	var d = new Date();
 	$('#year').html(d.getFullYear());
 
+	//new Zoomist('#zoomist');
 });

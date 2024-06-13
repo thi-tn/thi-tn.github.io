@@ -10,8 +10,10 @@
 	    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" src="node_modules/zoomist/zoomist.css"/>
-		<!-- <script src="node_modules/zoomist/zoomist.js"> --></script>
+		<link rel="stylesheet" src="node_modules/zoomist/zoomist.css"/><!-- styles -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/zoomist@2/zoomist.css" />
+
+
 	</head>
 	<body style="width: 100%;">
 		<nav class="navbar navbar-expand-sm">
@@ -106,18 +108,8 @@
 
 					<div class="row ux-img">
 					<div class="col-12 mb-lg-4">
-						<!-- <img src="photos/uiux/apm/feedback-chart.png"> -->
-						<!-- zoomist-container -->
-						<div id="zoomist" class="zoomist-container">
-						  <!-- zoomist-wrapper is required -->
-						  <div class="zoomist-wrapper">
-						    <!-- zoomist-image is required -->
-						    <div class="zoomist-image">
-						      <!-- you can add anything you want to zoom here. -->
-						      <img src="photos/uiux/apm/feedback-chart.png" />
-						    </div>
-						  </div>
-						</div>
+						<img src="photos/uiux/apm/feedback-chart.png">
+						
 					</div>
 				<div class="col-12 mb-lg-4"><img src="photos/uiux/apm/feedback-themes.png"></div></div>
 
@@ -138,9 +130,28 @@
 
 					<h4 class="mt-5 mb-3">Mapping Relationships</h4>
 					<p>Since one of the central themes from our discovery was the desire to view more details for expenses, our team first started ideation by focusing on the relationship among bills, payments, and line items within the AppFolio system. These are all concepts under the payables realm, each referring to a level of detail and/or status. We mapped out the relationships among these items and brainstormed opportunities for each part of this map. Recognizing owners' preference for property-specific financial analysis, we settled on a solution to group transactions by property, ensuring relevance and clarity.</p>
+					<div class="row ux-img mb-3">
+						<div class="col-12 ">
+							<div id="zoomist-container1" class="col-12 zoomist-container">
+							  <div class="zoomist-wrapper">
+							    <div class="zoomist-image">
+							      <img src="photos/uiux/apm/mapping.png" />
+							    </div>
+							  </div>
+							</div>
+						</div>
+					</div>
 					<div class="row ux-img">
-					<div class="col-12 mb-lg-4"><img src="photos/uiux/apm/mapping.png"></div>
-				<div class="col-12 mb-lg-4"><img src="photos/uiux/apm/brainstorming.png"></div></div>
+						<div class="col-12">
+							<div id="zoomist-container2" class="zoomist-container">
+							  <div class="zoomist-wrapper">
+							    <div class="zoomist-image">
+							      <img src="photos/uiux/apm/brainstorming.png" />
+							    </div>
+							  </div>
+							</div>
+						</div>
+					</div>
 
 					<p>We also explored the similarities and distinctions between the Transactions page and the existing Owner Statement report routinely distributed by property managers to owners at month-end. The consensus underscored our commitment to aligning the numerical data with that presented in the Owner Statement. Simultaneously, we aimed to enhance the Transactions page by offering a deeper level of detail and accessibility, enabling owners to select specific properties and timeframes for analysis.
 </p>
@@ -156,14 +167,6 @@
 				  		<div class="mb-lg-4 col-md-6"><img src="photos/uiux/apm/lofi-separate.png"></div>
 				  		<div class="mb-lg-4 col-md-6"><img src="photos/uiux/apm/lofi-totals.png"></div>
 				  		<div class="mb-lg-4 col-md-6"><img src="photos/uiux/apm/lofi-expandable.png"></div>
-						<!-- <div class="pt-2 pt-md-3 mb-lg-4 col-md-4 col-lg-3"><p class="figure-caption">Early wireframes for different user flows (from top to bottom):</p>
-							<ol class="figure-caption">
-								<li>Publishing a dataframe from the Notebook
-</li>
-								<li>Adding the Notebook data to local data connection, which would be available in the SQL editor</li>
-								<li>Clicking a button to create a chart from a dataframe within the Notebook </li>
-							</ol>
-						</div> -->
 					</div>
 
 					<p>After several renditions, we settled on 2 to-be-validated variants for the detailed Transactions page: one with a combined section detailing all types of transactions and one with separate sections for different types. At the time, we were not sure which version matched users' mental model more </p>
@@ -302,6 +305,28 @@
 	</div>
 		</body>
 
+	<!-- scripts -->
+	<script src="https://cdn.jsdelivr.net/npm/zoomist@2/zoomist.umd.js"></script>
+	<script>
+  		const zoomist = new Zoomist('#zoomist-container1', {
+		  // Optional parameters
+		  maxScale: 4,
+		  bounds: true,
+		  // if you need slider
+		  slider: true,
+		  // if you need zoomer
+		  zoomer: true
+		});
+		const zoomist2 = new Zoomist('#zoomist-container2', {
+		  // Optional parameters
+		  maxScale: 4,
+		  bounds: true,
+		  // if you need slider
+		  slider: true,
+		  // if you need zoomer
+		  zoomer: true
+		})
+	</script>
 
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
