@@ -98,7 +98,7 @@
 				<div class="container pt-5 pb-5 ">
 					<div class="row justify-content-center">
 						<div class="col-md-10 col-lg-8 text-center">
-							<p style="font-size: 1.7rem; color: #3b3b3b;" class="text-call-out"><i>How might we allow users to import Notebook dataframes into the chart builder and create visualizations?</i>
+							<p style="font-size: 1.7rem; color: #3b3b3b;" class="text-call-out"><i>How might we allow users to import Notebook dataframes into the chart builder to create visualizations?</i>
 	</p>
 						</div>
 					</div>
@@ -126,21 +126,21 @@
 					<h4 class="mt-5 mb-3">Ideation</h4>
 					<p>With the findings from our discovery stage, I started crafting the solution with low-fidelity wireframes. In this phase, we focused on the user flow from creating a dataframe in a notebook to making it available for  visualization, since this is the key interaction of this entire process.</p>
 
-					<p>We considered the following approaches:</p>
+					<p>We considered the following approaches based on the different ways data is connected within the Mode ecosystem:</p>
 
 					<div class="row ux-img">
 				  		<div class="mb-lg-4 col-md-8 col-lg-9"><img src="photos/uiux/dftodt/wireframes.png"></div>
 						<div class="pt-2 pt-md-3 mb-lg-4 col-md-4 col-lg-3"><p class="figure-caption">Early wireframes for different user flows (from top to bottom):</p>
 							<ol class="figure-caption">
-								<li class="pb-2">Publishing a dataframe from the Notebook as a data set
+								<li class="pb-2">Publishing a dataframe from the Notebook as a <span style="font-style: italic;">local dataset</span>
 </li>
-								<li class="pb-2">Exporting the dataframe as a local data connection to make it available in the SQL editor, and subsequently accessible in the chart builder</li>
-								<li class="pb-2">Enabling visualization from a dataframe within the Notebook </li>
+								<li class="pb-2">Exporting the dataframe as a <span style="font-style: italic;">local data connection</span> to make it available in the SQL editor, and subsequently accessible in the chart builder</li>
+								<li class="pb-2">Enabling <span style="font-style: italic;">native visualization</span> from a dataframe within the Notebook </li>
 							</ol>
 						</div>
 					</div>
 					
-					<p>We eventually moved forward with the concept of <b>exporting dataframes from the Notebook to make them available for manipulation in the visualization builder</b>. This approach was chosen based on its balance between a user-friendly quality and technical feasibility.
+					<p>After discussion on usability and technicality, we eventually moved forward with the concept of <b>exporting dataframes</b> from the Notebook to make them available in the visualization builder. This is akin to concept 1 as described above, but the structure of the exported data will be kept as a dataframe, which allows for more efficient technical transition between the notebook and chart builder.
 </p>
 
 					<p>After we finalized the overall user flow, I started creating more polished mockups to add higher fidelity to details such as button labels, icons, and tooltips.</p>
@@ -171,7 +171,7 @@
 
 					<div class="row ux-img">
 				  		<div class="mb-lg-4 col-md-8 col-lg-9"><img src="photos/uiux/dftodt/export.png"></div>
-						<div class="pt-2 pt-md-3 mb-lg-4 col-md-4 col-lg-3"><p class="figure-caption">From within a notebook cell, a user can easily click “Export output” to choose the action to “Export as dataframe.”</p>
+						<div class="pt-2 pt-md-3 mb-lg-4 col-md-4 col-lg-3"><p class="figure-caption">From within a notebook cell, the user can click “Export output” to choose to “Export as dataframe.” This quickly exports their data output from a cell as a dataframe, which would in turn make it available for the chart builder.</p>
 						</div>
 					
 
@@ -182,6 +182,17 @@
 
 						<div class="col-12"><img src="photos/uiux/dftodt/dfview.png"></div>
 						<div class="pt-2 mb-lg-4 col-12"><p class="figure-caption">Clicking on the dataframe name in the navbar opens the dataframe view, which offers 3 tabs: data, fields, and source. Each tab offers a unique aspect of the dataframe, helping users quickly determine the available data and source code.</p></div>
+
+
+						<div class="mb-lg-4 col-md-6"><p class="figure-caption">From this dataframe view, the user can easily click on the new chart icon on the tab bar to visualization options with the data and get to the chart builder.</p><img src="photos/uiux/dftodt/create-chart.png"></div>
+						<div class="mb-lg-4 col-md-6 mb-3"><p class="figure-caption">Alternatively, they can also click on the add icon below the dataframe name in the sidebar to see the same options.</p><img src="photos/uiux/dftodt/sidebar-chart.png"></div>
+					
+						
+						<div class="pt-2 mb-lg-4 col-md-3"><p class="figure-caption">For example, one could choose to create a pivot table from the exported dataframe and manipulate the data similarly to how they could with a SQL query in Mode.</p>
+						</div>
+						<div class="pt-0 pt-md-2 col-md-9"><img src="photos/uiux/dftodt/flow.gif"></div>
+						<div class="mb-5 col-12"><img src="photos/uiux/dftodt/chart-eg.png"></div>
+
 					</div>
 
 					<h5 class="sub-title-2 mt-3">Removal Flow</h5>
