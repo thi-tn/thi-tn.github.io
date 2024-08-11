@@ -11,8 +11,8 @@ $(function() {
 // import Zoomist
 //import Zoomist from '../node_modules/zoomist'
 
-	$('#works .img-11').click(function() {
-		var id = $('#works .img-11').index($(this));
+	$('#works .img-slide').click(function() {
+		var id = $('#works .img-slide').index($(this));
 		$('#works .carousel-item.active').removeClass('active');
 		$('#works .carousel-item').eq(id).addClass('active');
 		console.log("id", id);
@@ -29,7 +29,7 @@ $(function() {
 
 	// Works Filters
 
-	//show UIUX be default
+	//show UIUX by default
 	var defaultTag = "uiux";
 	//$("#tab-content .thumb-wrapper").toggle($(this).attr("tag").includes("defaultTag"));
 	$("#tab-content .thumb-wrapper").filter(function(){
